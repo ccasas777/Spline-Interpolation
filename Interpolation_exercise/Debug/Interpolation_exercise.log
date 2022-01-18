@@ -1,0 +1,3 @@
+﻿  Interpolation_exercise.cpp
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\Interpolation_exercise.cpp(19,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Interpolation_exercise.vcxproj -> C:\Users\super\source\repos\Interpolation_exercise\Debug\Interpolation_exercise.exe

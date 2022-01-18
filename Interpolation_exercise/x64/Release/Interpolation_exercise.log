@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\main.cpp(35,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\main.cpp(37,27): warning C4244: '=': conversion from 'long double' to 'float', possible loss of data
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\main.cpp(67,20): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\main.cpp(75,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\super\source\repos\Interpolation_exercise\Interpolation_exercise\main.cpp(75,12): message : consider using '%zd' in the format string
+  Generating code
+  3 of 535 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Interpolation_exercise.vcxproj -> C:\Users\super\source\repos\Interpolation_exercise\x64\Release\Interpolation_exercise.exe
