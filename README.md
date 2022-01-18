@@ -71,9 +71,12 @@ To begining with, we first generate the data from .csv
 Then call the spline Interpolation functions.... and calculate it's speed.
 In this step, you could try different parameters to understand the change of spline's speed: 
 
-int time_range = 8192; //unit: ns
-int time_step = 1; //unit :ns
-int k = 5; // the number of search around points
+The time range you want to interpolate(Max: original data size)
+int time_range = 8192;
+The time step you want to interpolate(min: 1)
+int time_step = 1; 
+the number of search around points
+int k = 5; 
 
 
 ```cpp
