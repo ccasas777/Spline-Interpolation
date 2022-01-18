@@ -29,15 +29,15 @@ The dynamic video code is more complicated than this project want to perform.
 
 3. add environmental parameters as following
  
-PYTHONHOME: C:\Python38 (your dir. of python) 
+->PYTHONHOME: C:\Python38 (your dir. of python) 
 
-PYTHONPATH: C:\Python38\DLLs;C:\Python38\Lib;C:\Python38\Lib\site-packages;
+->PYTHONPATH: C:\Python38\DLLs;C:\Python38\Lib;C:\Python38\Lib\site-packages;
 
 4. open the CPP project property, adding the include and lib address:
  
-Additional include Directories:  C:\Python38\include
+->Additional include Directories:  C:\Python38\include
 
-Additional Library Directories: C:\Python38\libs
+->Additional Library Directories: C:\Python38\libs
 
 
 ## Descriptions
