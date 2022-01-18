@@ -118,32 +118,28 @@ int k = 5;
 Finally, I use matplotlibcpp to visualize the data for comparison.
 
 ```cpp
- ifstream infile("../data/T40M_250MSPS.csv", ios::in);
-    string line;
-    vector<struct Point> DATA_40M;
-    getline(infile, line);
-    while (getline(infile, line)) {
-        stringstream ss(line);
-        string str;
-        Point adc_data;
+// Clear previous plot
+    plt::clf();
+    // Plot line from given x and y data. Color is selected automatically.
+    plt::plot(x_2, y_2, { { "marker", "o" }, {"linestyle", " "}, {"label", "Interpolation"} });
+    plt::plot(x_1, y_1, {{ "marker", "o" }, {"linestyle", " "},{"label", "Raw data"} });   
 
-        getline(ss, str, ',');
-        adc_data.x = stod(str) * 4; //unit: ns
-        getline(ss, str, ',');
-        adc_data.y = stold(str); //unit V
-
-        DATA_40M.push_back(adc_data);
-
-    }
-    
-    vector<float> x_1, y_1, x_2, y_2;
-    for (int i = 0; i < DATA_40M.size(); i++) {
-        
-        x_1.push_back(DATA_40M[i].x);
-        y_1.push_back(DATA_40M[i].y);
-    }
-
-
+    // Plot the label
+    plt::ylabel("unit: V");
+    plt::xlabel("unit: ns");    
+    // Set x-axis interval
+    plt::xlim(150, 300);
+    // Set y-axis interval
+    plt::ylim(-2, 2);
+    // Add graph title
+    plt::title("adc figure");
+    // Enable legend.
+    plt::legend();
+    // Display plot
+    plt::show();
+    // Display plot continuously
+    //plt::pause(0.01);
+    system("pause");
 
 ```
 ## Result:　
