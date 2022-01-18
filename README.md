@@ -1,5 +1,5 @@
 [//]: # (Image References)
-[image1]: ./snapshot/result.png
+[image1]: ./snapshot/result.PNG
 
 # Spline-Interpolation-Project
 
