@@ -28,11 +28,15 @@ The dynamic video code is more complicated than this project want to perform.
 2. install python38 with numpy and matplotlibcpp
 
 3. add environmental parameters as following
+ 
 PYTHONHOME: C:\Python38 (your dir. of python) 
+
 PYTHONPATH: C:\Python38\DLLs;C:\Python38\Lib;C:\Python38\Lib\site-packages;
 
 4. open the CPP project property, adding the include and lib address:
+ 
 Additional include Directories:  C:\Python38\include
+
 Additional Library Directories: C:\Python38\libs
 
 
@@ -72,10 +76,15 @@ Then call the spline Interpolation functions.... and calculate it's speed.
 In this step, you could try different parameters to understand the change of spline's speed: 
 
 The time range you want to interpolate(Max: original data size)
+
 int time_range = 8192;
+
 The time step you want to interpolate(min: 1)
+
 int time_step = 1; 
+
 the number of search around points
+
 int k = 5; 
 
 
